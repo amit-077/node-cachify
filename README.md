@@ -2,7 +2,7 @@
 node-cachify is a simple Node.js caching tool designed to enhance performance by efficiently storing and retrieving data using key-value pairs with an optional time to live (TTL) feature.
 
 ## Installation
-```bash
+```
 npm install node-cachify
 ```
 
