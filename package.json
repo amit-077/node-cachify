@@ -1,14 +1,20 @@
 {
   "name": "node-cachify",
   "version": "1.0.0",
-  "description": "",
+  "description": "node-cachify is a simple Node.js caching tool designed to enhance performance by efficiently storing and retrieving data using key-value pairs with an optional time to live (TTL) feature.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "test"
+    "cache",
+    "nodejs",
+    "npm"
   ],
   "author": "Amit Kamat",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit-077/node-cachify/"
+  }
 }
