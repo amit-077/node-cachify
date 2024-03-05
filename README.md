@@ -1,15 +1,12 @@
 # node-cachify
-
 node-cachify is a simple Node.js caching tool designed to enhance performance by efficiently storing and retrieving data using key-value pairs with an optional time to live (TTL) feature.
 
 ## Installation
-
 ```bash
 npm install node-cachify
 ```
 
 ## Usage
-
 ```bash
 const Cache = require('node-cachify');
 
@@ -25,7 +22,6 @@ console.log(cache.get('key1'));   // Get values from the cache
 ## Functions
 
 ### set
-
 Sets a key-value pair with a optional TTL field (in seconds). Returns true on success.
 
 ```bash
@@ -33,7 +29,6 @@ cache.set('key1', 'value1', 60);
 ```
 
 ### get
-
 Retrieves the value associated with the specified key from the cache. Returns null if not found in cache.
 
 ```bash
@@ -44,7 +39,6 @@ console.log(val);
 ```
 
 ### delete
-
 Removes the key-value pair associated with the specified key from the cache.
 
 ```bash
